@@ -1,3 +1,5 @@
+window.onload = function() {
+
 const randomRecipe = document.getElementById("random-recipe");
 
 console.log(randomRecipe);
@@ -29,4 +31,6 @@ if (shareButton) {
     alert("Shared! Thanks for sharing. :)");
     console.log("Shared!");
   });
+}
+
 }
